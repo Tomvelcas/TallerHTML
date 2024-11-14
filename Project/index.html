@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brawl Stars Fan Page</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilos personalizados */
+        body {
+            background-color: #1d1d1d;
+            color: #ffffff;
+        }
+
+        /* Header */
+        .header {
+            position: relative;
+            background-image: url('https://e1.pxfuel.com/desktop-wallpaper/574/465/desktop-wallpaper-brawl-stars-backgrounds-posted-by-christopher-walker-brawl-stars-banner.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 60px 20px;
+            text-align: center;
+            color: #ffcc00;
+            text-shadow: 2px 2px #000;
+        }
+
+        /* Overlay for opacity effect */
+        .header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Ajusta la opacidad cambiando el último valor (0.5) */
+            z-index: 1;
+        }
+
+        .header h1,
+        .header p {
+            position: relative;
+            z-index: 2;
+        }
+
+        .header h1 {
+            font-size: 3em;
+            font-weight: bold;
+        }
+
+        /* Content */
+        .content-section {
+            margin-top: 20px;
+        }
+
+        /* List Group */
+        .list-group-item {
+            background-color: #2b2b2b;
+            color: #ffcc00;
+            border: none;
+        }
+
+        /* Subscription Form */
+        .subscribe-form {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #343a40;
+            border-radius: 8px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #2b2b2b;
+            padding: 20px;
+            color: #ffcc00;
+            text-shadow: 1px 1px #000;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>Brawl Stars Fan Page</h1>
+        <p>Explora el emocionante mundo de Brawl Stars</p>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container content-section">
+        <div class="row">
+          <!-- Paragraph Section -->
+            <div class="col-md-6" style="background-color: #2b2b2b; padding:15px;">
+            <h2>Sobre Brawl Stars</h2> 
+            <p style="text-align: justify;">
+                Brawl Stars es un juego de lucha de ritmo rápido en el que los jugadores compiten en una variedad de modos de juego. 
+                Desde combates en equipo hasta batallas en solitario, 
+                <a href="https://brawlstars.com" target="_blank" style="color: #ffcc00;">Brawl Stars</a> 
+                ofrece una experiencia única y divertida.
+            </p>
+        </div>
+        <br></br>
+
+            <!-- Image Section -->
+            <div class="col-md-6">
+                <br>
+                <img src="https://www.sdpnoticias.com/resizer/v2/OEP64WZHJRGDJDJJWBAWBVET4M.jpeg?smart=true&auth=2e6d9be2f6a615c8c9186c510201e600f7fc8218948c3f5007d7b04ed65467c9&width=640&height=360" class="img-fluid" alt="Brawl Stars">
+            </div>
+        </div>
+
+        <!-- List Section -->
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <h3>Características del Juego</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">Más de 80 personajes únicos</li>
+                    <li class="list-group-item">Modos de juego variados que te dejaran CALVO</li>
+                    <li class="list-group-item">Skins Exclusivas de personajes</li>
+                    <li class="list-group-item">Competencias globales por MUCHOOOO DINERO</li>
+                </ul>
+                <br>
+            </div>
+        </div>
+
+        <!-- Subscription Form -->
+        <div class="row">
+            <div class="col-md-12 subscribe-form">
+                <h3>Suscríbete para recibir novedades</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo" required>
+                    </div>
+                    <button type="submit" class="btn btn-warning">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center mt-4">
+        <p>&copy; 2024 Brawl Stars Fan Page. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
